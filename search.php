@@ -31,7 +31,8 @@ function Search($SearchName){
 	        {
 	        	$resultFname = $row["fname"];
 	        	$resultLname = $row["lname"];
-	        	
+	        	echo $resultFname;
+			echo $resultLname;
 	        }
 	    }
 	    else{
