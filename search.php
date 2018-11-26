@@ -24,9 +24,6 @@ function Search($SearchName){
         $count = $stmt->rowCount();
         if($count > 0)
         {
-        	if($count > 1){
-
-        	}
 	        while($row = $stmt->fetch())
 	        {
 	        	$resultFname = $row["fname"];
